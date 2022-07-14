@@ -6,6 +6,7 @@
 #include <string.h>
 /* fileptr points to file with byte code*/
 extern FILE *fileptr;
+FILE *fileptr;
 /**
  * struct stack_s - doubly linked list representation of a stack (or queue)
  * @n: integer
